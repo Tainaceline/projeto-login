@@ -1,0 +1,33 @@
+@media screen and (min-width:768px) and (max-width:992px){
+    #telal{
+        width: 80vw;
+    }
+    div#img1{
+        float: left;
+        height: 100%;
+        width: 30%;
+
+    }#form{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:992px){
+    #telal{
+        width: 950;
+    }
+    div#img1{
+        float: left;
+        height: 100%;
+        width: 50%;
+
+    }#form{
+        float: right;
+        width: 50%;
+    }
+    body{
+        background-color: brown;
+    }
+
+}

@@ -1,6 +1,7 @@
 @media screen and (min-width:768px) and (max-width:992px){
     #telal{
         width: 80vw;
+        height: 272px;
     }
     div#img1{
         float: left;
@@ -11,11 +12,35 @@
         float: right;
         width: 70%;
     }
+    div#img1{
+      
+        background-position: right, bottom;
+    }
+    #button{
+        width: 99%;
+        height: 29px;
+        color: white;
+        background-color: rgb(48, 48, 136);
+        margin-top: 9px;
+     
+    }
+    p#aa>input{
+    
+        width: 88%;
+       
+    }
+   
+    #bb{
+        margin-top: 7px;
+    }
+    
+    
 }
 
 @media screen and (min-width:992px){
     #telal{
-        width: 950;
+        width: 950px;
+        height: 272px;
     }
     div#img1{
         float: left;
@@ -26,8 +51,33 @@
         float: right;
         width: 50%;
     }
-    body{
-        background-color: brown;
+    
+    h1{
+     
+       font-size: 2em;
+      }
+    
+    #button{
+        width: 452px;
+        height: 29px;
+        color: white;
+        background-color: rgb(48, 48, 136);
+        margin-top: 11px;
+     
     }
+    p#aa>input{
+    
+        width: 90%;
+       
+    }
+   
+    #bb{
+        margin-top: 9px;
+    }
+    
+    
+      
+       
+      
 
 }

@@ -10,6 +10,7 @@ body{
 
     height: 100vh;
     width: 100vw;
+    color: white;
   
 }
 main{
@@ -22,77 +23,95 @@ main{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    width: 420px;
-    height: 443px;
+    width: 341px;
+    height: 438px;
     border-radius: 20px;
-    background-color: white;
+    background-color: #222222;
 }
 div#img1{
     background: url(../imagem/pexels-eye4dtail-129495.jpg) no-repeat;
     display: block;
     background-size: cover;
-    height: 170px;
+    height: 173px;
     background-position: left, bottom;
+    border-radius: 5px;
+}
+p#aa{
+  
+   
+    background-color: rgb(48, 48, 136);
+    display: block;
+    width: 99%;
+    height: 36px;
+    border-radius: 8px;
+    margin: 5px 0px;
+  
+}
+#aa>span{
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+p#aa>input{
+    background-color: rgb(190, 190, 238);
+    width: calc(100% -47px);
+    width: 86%;
+    transform: translateY(-10px);
+    font-size: 1em;
+    height: 99%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
+label{
+    display: none;
 }
 #form{
     display: block;
     padding: 9px;
+  
 }
 
 
 
 
+h1{
+      text-align: center;
+      margin-bottom: 10px;
+    }
+.buttonc{
+    float: right;
+}
+#esq{
+    float: left;
+}
+#button{
+    width: 320px;
+    height: 29px;
+    color: white;
+    background-color: rgb(48, 48, 136);
+    margin-top: 4px;
+ 
+}
+a{
+    text-decoration: none;
 
-
-
-
-
-
-
-
-  label{
-      font-size: 1.3em;
-  }
-  #button{
-      width: 300px;
-      margin-top: 4%;
-      height: 26px;
-      background-color:rgb(48, 48, 136) ;
-      color: white;
-      
-  }
-
-
-  a{
-      text-decoration: none;
-      margin-top: 7%;
-      color: black;
-  }
-  a:hover{
-      color: rgb(48, 48, 136);
-  }
-  #criarconta{
-      background-color: #FFFFFF;
-      margin-top: 37%;
-      
-  }
-  #esqs{
-      margin-top: 2%;
-   
-  }
-  footer{
-     margin-left: 70%;
   
-
-  }
-  
-
-      
-      a:active{
-          transform: translate(2px,2px);
-      }
-     input{
-     
-      width: 97%;
-     }
-    
+    color: white;
+}
+a:hover{
+    color: rgb(51, 51, 165);
+} 
+#bb{
+    margin-top: 7px;
+}
+#a:active{
+    transform: translate(2px,2px);
+}
+input[type=submit]:hover{
+    color: rgb(64, 64, 233);
+} 
+#aa>input:focus-within{
+    background-color: white;
+}
